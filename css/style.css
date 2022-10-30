@@ -40,12 +40,39 @@ button {
 body {
   background-color: var(--dark);
   color: var(--white);
+  padding: 5%;
+  display: grid;
+  gap: 5%;
 }
 
 .header {
-  padding: 5% 10%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header__div {
+  border: 1px solid var(--white);
+  height: 100%;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-size: var(--fs-g);
+  font-weight: var(--fw-ul);
+  font-family: var(--ff-1);
+}
+
+.header__menu {
+  display: block;
+}
+
+.header__nav {
+  display: none;
+}
+
+.body {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .body__section-img {
