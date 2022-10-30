@@ -5,51 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interior Consultant</title>
     <meta name="title" content="Interior Consultant" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/interior-design.svg"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div>This Interior</div>
-      <div>
-        <nav>Home</nav>
-        <nav>Collection</nav>
-        <nav>About</nav>
-        <nav>Contact</nav>
+    <header class="header">
+      <div class="header__div">This Interior</div>
+      <div class="header__div">
+        <nav class="header__div-nav">Home</nav>
+        <nav class="header__div-nav">Collection</nav>
+        <nav class="header__div-nav">About</nav>
+        <nav class="header__div-nav">Contact</nav>
       </div>
     </header>
-    <main>
-      <section>
-        <h1>Modern interior</h1>
-        <p>
+    <main class="body">
+      <section class="body__section">
+        <h1 class="body__section-title">Modern interior</h1>
+        <p class="body__section-text">
           A full-Service residential & commercial interior design and staging
           company offering professional organizing & eco-services.
         </p>
-        <a href="#">Read more</a>
+        <a class="body__section-link" href="#">Read more</a>
       </section>
-      <secton>
-        <img src="" alt="" />
-        <article>
-          <div>
-            <img src="" alt="" />
-            <span>
-              <h5>Aliza Webber</h5>
-              <p>Interior designer</p>
+      <secton class="body__section">
+        <img
+          src="/assets/image1.webp"
+          alt="interior-design"
+          class="body__section-img"
+        />
+        <article class="body__section-art">
+          <div class="art__header">
+            <img
+              src="/assets/image-2.webp"
+              alt="profile-pic"
+              class="art__header-pic"
+            />
+            <span class="art__header-info">
+              <h5 class="art__header-info--name">Aliza Webber</h5>
+              <p class="art__header-info--role">Interior designer</p>
             </span>
           </div>
-          <div>
-            <h3>Designed in 2020 by Aliza Webber</h3>
+          <div class="art__text">
+            <h3 class="art__text-subtitle">Designed in 2020 by Aliza Webber</h3>
           </div>
         </article>
       </secton>
     </main>
-    <footer>created by username - devChallenges.io</footer>
+    <footer class="footer">
+      <p class="footer-text">created by username - devChallenges.io</p>
+    </footer>
   </body>
-  <script src="app.js"></script>
+  <script src="js/app.js"></script>
 </html>
