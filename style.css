@@ -1,8 +1,16 @@
+:root {
+  --ff-1: 'Crimson Pro', serif;
+  --ff-2: 'Lora', serif;
+  --ff-3: 'Montserrat', sans-serif;
+  --dark: rgba(24, 23, 25, 1);
+  --white: rgba(255, 255, 255, 1);
+  --footer: rgba(169, 169, 169, 1);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 
 a {
