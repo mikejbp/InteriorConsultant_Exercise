@@ -2,6 +2,20 @@
   --ff-1: 'Crimson Pro', serif;
   --ff-2: 'Lora', serif;
   --ff-3: 'Montserrat', sans-serif;
+
+  --fw-ul: 200;
+  --fw-n: 400;
+  --fw-m: 500;
+  --fw-b: 700;
+
+  --fs-bt: 3rem;
+  --fs-t: 2.25rem;
+  --fs-st: 1.5rem;
+  --fs-lg: 1.125rem;
+  --fs-g: 0.875rem;
+  --fs-sm: 0.75rem;
+  --fs-xs: 0.625rem;
+
   --dark: rgba(24, 23, 25, 1);
   --white: rgba(255, 255, 255, 1);
   --footer: rgba(169, 169, 169, 1);
@@ -21,4 +35,23 @@ a {
 button {
   border: none;
   outline: none;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.header {
+  padding: 5% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body__section-img {
+  width: 30vw;
+}
+
+.art__header-pic {
+  width: 30vw;
 }
